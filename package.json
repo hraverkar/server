@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dochouse",
+    "server",
+    "test"
+  ],
+  "author": "Harshal Raverkar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.4.0",
+    "log4js": "^6.3.0",
+    "moment": "^2.29.1",
+    "mssql": "^6.3.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "request": "^2.88.0",
+    "sequelize": "^6.5.0",
+    "tedious": "^6.7.0",
+    "uuid": "^3.4.0"
+  }
+  
+}
